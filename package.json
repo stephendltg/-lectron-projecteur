@@ -5,6 +5,7 @@
     "node": ">=v14.16",
     "npm": ">=7.7"
   },
+  "author": "stephendltg",
   "main": "packages/main/dist/index.cjs",
   "scripts": {
     "build": "node scripts/build.js",

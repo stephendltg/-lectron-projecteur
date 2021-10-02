@@ -1,40 +1,17 @@
-# Vite Electron Builder Boilerplate v2
+# Electron app sample
 
 [![GitHub issues by-label](https://img.shields.io/github/issues/stephendltg/electron-sample/help%20wanted?label=issues%20need%20help&logo=github)](https://github.com/stephendltg/electron-sample/issues?q=label%3A%22help+wanted%22+is%3Aopen+is%3Aissue)
 [![Minimal node version](https://img.shields.io/static/v1?label=node&message=%3E=14.16&logo=node.js&color)](https://nodejs.org/about/releases/)
 [![Minimal npm version](https://img.shields.io/static/v1?label=npm&message=%3E=7.7&logo=npm&color)](https://github.com/npm/cli/releases)
 
-> Vite+Electron = 🔥
-
-This is a secure template for electron applications. Written following the latest safety requirements, recommendations and best practices.
-
-Under the hood is used [Vite] — super fast, nextgen bundler, and [electron-builder] for compilation.
 
 
 ___
 ### Support
-- This template maintained by [Alex Kozack][cawa-93-github]. You can [💖 sponsor him][cawa-93-sponsor] for continued development of this template.
-
 - Found a problem? Pull requests are welcome.
 
-- If you have ideas, questions or suggestions - **Welcome to [discussions](https://github.com/cawa-93/vite-electron-builder/discussions)**. 😊
+- If you have ideas, questions or suggestions - **Welcome to [discussions](https://github.com/stephendltg/electron-sample/discussions)**. 😊
 ___
-
-
-
-
-## Get started
-
-Follow these steps to get started with this template:
-
-1. Click the **[Use this template](https://github.com/cawa-93/vite-electron-builder/generate)** button (you must be logged in) or just clone this repo.
-2. If you want use another package manager don't forget edit [`.github/workflows`](/.github/workflows) -- it uses `npm` by default.
-
-That's all you need. 😉
-
-**Note**: This template uses npm v7 feature — [**Installing Peer Dependencies Automatically**](https://github.com/npm/rfcs/blob/latest/implemented/0025-install-peer-deps.md). If you are using a different package manager, you may need to install some peerDependencies manually.
-
-
 
 
 ## Features
@@ -101,7 +78,7 @@ I am actively involved in its development. But I do not guarantee that this temp
 - ⚠ Release notes are created automatically based on commit history. [`.github/actions/release-notes`](.github/actions/release-notes) is used for generation. It may not provide some scenarios. If you encounter a problem - write about it.
 - ⏳ I want to migrate all code base to ESM. But because Nodejs  ecosystem is unprepared I have not known whether this will give more benefits or more inconvenience.
 
-Some improvement or problems can be listed in [issues](https://github.com/cawa-93/vite-electron-builder/issues).
+Some improvement or problems can be listed in [issues](https://github.com/stephendltg/electron-sample/issues).
 
 **Pull requests are welcome**.
 

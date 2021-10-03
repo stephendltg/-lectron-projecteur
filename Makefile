@@ -15,6 +15,7 @@ install-rasp:
 
 clean:
 	@echo "Clean project ${PROJECT}..."
+  rm -rf ./dist
 	rm -rf ./node_modules
 
 nvm:

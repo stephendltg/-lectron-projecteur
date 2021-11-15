@@ -4,7 +4,7 @@ VERSION=v14.16.1
 NVM=v0.38.0
 
 install: 
-	@echo "Installing project ${PROJECT}..."
+	@echo "Installing project ${PROJECT} ..."
 	. ${NVM_DIR}/nvm.sh && nvm install ${VERSION} && nvm use ${VERSION}
 	npm install
 
